@@ -1,3 +1,4 @@
+//LAGRANGE INTERPOLATION METHOD
 #include<iostream>
 #include<conio.h>
 
@@ -8,7 +9,6 @@ int main()
 	 float x[100], y[100], xp, yp=0, p;
 	 int i,j,n;
 
-	 /* Input Section */
 	 cout<<"Enter number of data: ";
 	 cin>>n;
 	 cout<<"Enter data:"<< endl;
@@ -21,8 +21,6 @@ int main()
 	 }
 	 cout<<"Enter interpolation point: ";
 	 cin>>xp;
-
-	 /* Implementing Lagrange Interpolation */
 	 for(i=1;i<=n;i++)
 	 {
 		  p=1;

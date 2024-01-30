@@ -1,9 +1,10 @@
+//BISECTION METHOD
 #include<iostream>
 #include<cmath>
 using namespace std;
 
 float func(float x){
-    return pow(x, 3)-2*x-5;
+    return pow(x,2)-4*x-10;
 }
 
 int main(){

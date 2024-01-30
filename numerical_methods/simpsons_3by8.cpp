@@ -1,10 +1,10 @@
+//SIMPSON'S 3/8 RULE
 #include<iostream>
 using namespace std;
 
 float f(float x){
     return 1/(1+x*x);
 }
-
 int main(){
     float a, b, h, Is;
     int n;

@@ -1,3 +1,4 @@
+//RK FIRST OR EULER'S METHOD
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -19,7 +20,6 @@ int main(){
     cin>>xn;
     while(x<xn){
         yn = y + h*f(x);
-        cout<<yn;
         y=yn;
         x=x+h;
     }

@@ -1,3 +1,4 @@
+//RK SECOND OR HEUN'S OR MODIFIED EULER'S METHOD
 #include<iostream>
 #include<math.h>
 using namespace std;
